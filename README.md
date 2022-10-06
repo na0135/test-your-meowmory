@@ -66,7 +66,8 @@ This gif shows the player losing the game after 3 tries and the losing message.
 - The picture for button 6 is from: Pixabay, https://pixabay.com/photos/cat-face-close-up-view-eyes-1334970/
 
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
+A challenge I encountered while building this game and how I overcame it:
 
 The most challenging part of this project was implementing the timer. I have mostly been working with C and Java, so it was a new learning experience to see how some functions JavaScript executed asynchronously. Initially, I thought that setInterval would not be executed until playSequence() was done executing within startGame(). This sequential execution is what I am familiar with. I wanted the timer to start only after all of the buttons had been pressed for the player, but I noticed that my startInterval call was being executed as soon as playSequence() began.
 
@@ -75,7 +76,7 @@ After researching more about how setTimeout and setInterval worked, reading diff
 In order to solve this, I traced the code backwards starting from playSequence to find out what was causing this, and by examining the code more closely I realized that playSequence() also calls setTimeout, which is what I believe caused my timer to start going off at the same time. First I pseudocoded and sketched out my plan out because planning code before writing it out really helps me figure out where the potential problems could be. After experimenting with different solutions, I thought of a solution that would not change the order of execution of the setTimeout and setInterval calls, but instead work with it. I decided to have a variable that tracks "actual" time, which is hidden from the user and starts as soon as the game starts. After the actual time equals the delay time of holding the button and playing the sound, I start the player’s timer and decrement one second for the player every other call to elapseTime. This addresses the setInterval timer starting before playSequence finished its playback and “allows” the buttons to play before the player’s timer is displayed.
 
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+Questions I still have about web development
 
 After reading about web-safe fonts, I was wondering whether this game itself would work well on another device like a phone, or another web browser. Because there are so many different browsers and devices that people want to view webpages on, how can web developers create and design web pages that are accessible and user friendly to as many people as possible? 
 
@@ -85,7 +86,7 @@ Also, how do web developers organize user data such as emails and passwords, whi
 What are its downsides?
 
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+What I would add on to this project:
 
 If I had a few more hours to work on this project, I would work more on the design of the game, such as adding more details to the timer. For example, as the timer approaches 5 seconds, I would want to turn the text red and animate the timer by having it pulsate to give it more impact. I would also change the design of the timer, making it have the shape of an hourglass. I would also want to add elevator music or some other audio while the timer is counting down to ease the player’s stress. I would also like to customize the cursor on the webpage to match the theme of my game (a hand to pet the cats). I also wanted to treat the images themselves as buttons, rather than embedding them into the button. 
 

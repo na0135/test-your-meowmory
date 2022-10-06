@@ -15,8 +15,7 @@ Functionalities
 
 Extra functionalities
 
-* [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [X] Any HTML page elements (including game buttons) 
 * [X] More than 4 functional game buttons
 * [X] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played

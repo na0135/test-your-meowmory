@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light Meow-mory Game
+    </h1>
+    <p>
+      Welcome to the meow-mory puzzle game! 
+      <br>
+      Choose
+      the blocks in order of the sequence they were played. 
+      Have fun!
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <p id="timer">
+      ٩(｡•́‿•̀｡)۶
+      
+    </p>
+    
+    <p id="gameOver">
+      
+    </p>
+    
+     <p id="youWon" class="hidden">
+       <img id="cakeCat" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/birthday%20cake%20cat.gif?v=1648662515991">
+     </p>
+    
+     <p id="youLost" class="hidden">
+      <img id="sadCat" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/sad%20cat.gif?v=1648663226290">
+     </p>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="playSound(0)" onmouseup="stopTone()">
+        <img id="surprised" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/surprised%20cat.png?v=1648506724812">
+        <audio id="catmeow1" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/612806-meku-a-cat-piano-note-c-2_SmyDVd01.wav?v=1648535318874"></audio>
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="playSound(1)" onmouseup="stopTone()">
+        <img id="catbutton2" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/button22.jpg?v=1648794318955">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="playSound(2)" onmouseup="stopTone()">
+        <img id="catbutton3" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/button33.jpg?v=1648794442518">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="playSound(3)" onmouseup="stopTone()">
+        <img id="catbutton4" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/button44.png?v=1648794690884">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="playSound(4)" onmouseup="stopTone()">
+        <img id="catbutton5" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/button5.jpg?v=1648538526859">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="playSound(5)" onmouseup="stopTone()">
+        <img id="catbutton6" src="https://cdn.glitch.global/a8342e45-98e9-4034-b924-c71b6f3fbc21/button6.jpg?v=1648794935030">
+      </button>
+    </div>
+  </body>
+</html>

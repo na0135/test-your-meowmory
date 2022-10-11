@@ -13,7 +13,7 @@ Functionalities
 * [X] User wins the game after guessing a complete pattern
 * [X] User loses the game after an incorrect guess
 
-Extra functionalities
+
 
 * [X] Any HTML page elements (including game buttons) 
 * [X] More than 4 functional game buttons
@@ -23,8 +23,6 @@ Extra functionalities
 * [X] Game button appearance change goes beyond color (e.g. add an image)
 * [X] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [X] User has a limited amount of time to enter their guess on each turn
-
-The following **additional** features are implemented:
 
 - [X] Displays a secret celebratory GIF that only pops up when the user wins and one that only pops up when the user loses
 - [X] User gets additional time for each turn
@@ -39,7 +37,7 @@ This gif shows the player losing the game after 3 tries and the losing message.
 ![](gif4-link-here)
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+1. Resources I used to build the game 
 - Hiding images: https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml#:~:text=The%20trick%20to%20hiding%20any,it%20from%20the%20document%20flow.
 - Hiding images: https://www.w3schools.com/css/css_display_visibility.asp
 - setInterval: https://developer.mozilla.org/en-US/docs/Web/API/setInterval

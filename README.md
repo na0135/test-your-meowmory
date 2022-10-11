@@ -36,7 +36,7 @@ This gif shows the player losing the game after 3 tries and the losing message.
 ![](gif3-link-here)
 ![](gif4-link-here)
 
-## Reflection Questions
+## Reflection
 1. Resources I used to build the game 
 - Hiding images: https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml#:~:text=The%20trick%20to%20hiding%20any,it%20from%20the%20document%20flow.
 - Hiding images: https://www.w3schools.com/css/css_display_visibility.asp
@@ -87,7 +87,7 @@ What I would add on to this project:
 
 If I had a few more hours to work on this project, I would work more on the design of the game, such as adding more details to the timer. For example, as the timer approaches 5 seconds, I would want to turn the text red and animate the timer by having it pulsate to give it more impact. I would also change the design of the timer, making it have the shape of an hourglass. I would also want to add elevator music or some other audio while the timer is counting down to ease the player’s stress. I would also like to customize the cursor on the webpage to match the theme of my game (a hand to pet the cats). I also wanted to treat the images themselves as buttons, rather than embedding them into the button. 
 
-While trying to come up with a solution for the timer, I read about Promises in Javascript. While I did not have time to try this implementation, I would want to use it to improve my implementation of the timer to have more control over the ordering of the execution of asynchronous functions, because my timer “hides” this issue from the player. I would also try to make my code more generalized and have less hard-coded numbers so that this game could be customized more easily by others, or to make it easier if I build on this project in the future.
+While trying to come up with a solution for the timer, I read about Promises in JavaScript. While I did not have time to try this implementation, I would want to use it to improve my implementation of the timer to have more control over the ordering of the execution of asynchronous functions, because my timer “hides” this issue from the player. I would also try to make my code more generalized and have less hard-coded numbers so that this game could be customized more easily by others, or to make it easier if I build on this project in the future.
 
 
 
